@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2091D7EF29075C02002F82E9 /* eMovieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2091D7EE29075C02002F82E9 /* eMovieApp.swift */; };
+		2091D7F129075C02002F82E9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2091D7F029075C02002F82E9 /* Persistence.swift */; };
+		2091D7F429075C02002F82E9 /* eMovie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2091D7F229075C02002F82E9 /* eMovie.xcdatamodeld */; };
+		2091D7F629075C02002F82E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2091D7F529075C02002F82E9 /* ContentView.swift */; };
+		2091D7F829075C03002F82E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2091D7F729075C03002F82E9 /* Assets.xcassets */; };
+		2091D7FC29075C03002F82E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2091D7FB29075C03002F82E9 /* Preview Assets.xcassets */; };
+		2091D80629075C03002F82E9 /* eMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2091D80529075C03002F82E9 /* eMovieTests.swift */; };
+		2091D81029075C03002F82E9 /* eMovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2091D80F29075C03002F82E9 /* eMovieUITests.swift */; };
+		2091D81229075C03002F82E9 /* eMovieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2091D81129075C03002F82E9 /* eMovieUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2091D80229075C03002F82E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2091D7E329075C02002F82E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2091D7EA29075C02002F82E9;
+			remoteInfo = eMovie;
+		};
+		2091D80C29075C03002F82E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2091D7E329075C02002F82E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2091D7EA29075C02002F82E9;
+			remoteInfo = eMovie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2091D7EB29075C02002F82E9 /* eMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2091D7EE29075C02002F82E9 /* eMovieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eMovieApp.swift; sourceTree = "<group>"; };
+		2091D7F029075C02002F82E9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		2091D7F329075C02002F82E9 /* eMovie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = eMovie.xcdatamodel; sourceTree = "<group>"; };
+		2091D7F529075C02002F82E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2091D7F729075C03002F82E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2091D7F929075C03002F82E9 /* eMovie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = eMovie.entitlements; sourceTree = "<group>"; };
+		2091D7FB29075C03002F82E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2091D80129075C03002F82E9 /* eMovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eMovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2091D80529075C03002F82E9 /* eMovieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eMovieTests.swift; sourceTree = "<group>"; };
+		2091D80B29075C03002F82E9 /* eMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2091D80F29075C03002F82E9 /* eMovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eMovieUITests.swift; sourceTree = "<group>"; };
+		2091D81129075C03002F82E9 /* eMovieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eMovieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2091D7E829075C02002F82E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2091D7FE29075C03002F82E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2091D80829075C03002F82E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2091D7E229075C02002F82E9 = {
+			isa = PBXGroup;
+			children = (
+				2091D7ED29075C02002F82E9 /* eMovie */,
+				2091D80429075C03002F82E9 /* eMovieTests */,
+				2091D80E29075C03002F82E9 /* eMovieUITests */,
+				2091D7EC29075C02002F82E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2091D7EC29075C02002F82E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2091D7EB29075C02002F82E9 /* eMovie.app */,
+				2091D80129075C03002F82E9 /* eMovieTests.xctest */,
+				2091D80B29075C03002F82E9 /* eMovieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2091D7ED29075C02002F82E9 /* eMovie */ = {
+			isa = PBXGroup;
+			children = (
+				2091D7EE29075C02002F82E9 /* eMovieApp.swift */,
+				2091D7F029075C02002F82E9 /* Persistence.swift */,
+				2091D7F529075C02002F82E9 /* ContentView.swift */,
+				2091D7F729075C03002F82E9 /* Assets.xcassets */,
+				2091D7F929075C03002F82E9 /* eMovie.entitlements */,
+				2091D7F229075C02002F82E9 /* eMovie.xcdatamodeld */,
+				2091D7FA29075C03002F82E9 /* Preview Content */,
+			);
+			path = eMovie;
+			sourceTree = "<group>";
+		};
+		2091D7FA29075C03002F82E9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2091D7FB29075C03002F82E9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2091D80429075C03002F82E9 /* eMovieTests */ = {
+			isa = PBXGroup;
+			children = (
+				2091D80529075C03002F82E9 /* eMovieTests.swift */,
+			);
+			path = eMovieTests;
+			sourceTree = "<group>";
+		};
+		2091D80E29075C03002F82E9 /* eMovieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2091D80F29075C03002F82E9 /* eMovieUITests.swift */,
+				2091D81129075C03002F82E9 /* eMovieUITestsLaunchTests.swift */,
+			);
+			path = eMovieUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2091D7EA29075C02002F82E9 /* eMovie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2091D81529075C03002F82E9 /* Build configuration list for PBXNativeTarget "eMovie" */;
+			buildPhases = (
+				2091D7E729075C02002F82E9 /* Sources */,
+				2091D7E829075C02002F82E9 /* Frameworks */,
+				2091D7E929075C02002F82E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eMovie;
+			productName = eMovie;
+			productReference = 2091D7EB29075C02002F82E9 /* eMovie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2091D80029075C03002F82E9 /* eMovieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2091D81829075C03002F82E9 /* Build configuration list for PBXNativeTarget "eMovieTests" */;
+			buildPhases = (
+				2091D7FD29075C03002F82E9 /* Sources */,
+				2091D7FE29075C03002F82E9 /* Frameworks */,
+				2091D7FF29075C03002F82E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2091D80329075C03002F82E9 /* PBXTargetDependency */,
+			);
+			name = eMovieTests;
+			productName = eMovieTests;
+			productReference = 2091D80129075C03002F82E9 /* eMovieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2091D80A29075C03002F82E9 /* eMovieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2091D81B29075C03002F82E9 /* Build configuration list for PBXNativeTarget "eMovieUITests" */;
+			buildPhases = (
+				2091D80729075C03002F82E9 /* Sources */,
+				2091D80829075C03002F82E9 /* Frameworks */,
+				2091D80929075C03002F82E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2091D80D29075C03002F82E9 /* PBXTargetDependency */,
+			);
+			name = eMovieUITests;
+			productName = eMovieUITests;
+			productReference = 2091D80B29075C03002F82E9 /* eMovieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2091D7E329075C02002F82E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					2091D7EA29075C02002F82E9 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					2091D80029075C03002F82E9 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 2091D7EA29075C02002F82E9;
+					};
+					2091D80A29075C03002F82E9 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 2091D7EA29075C02002F82E9;
+					};
+				};
+			};
+			buildConfigurationList = 2091D7E629075C02002F82E9 /* Build configuration list for PBXProject "eMovie" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2091D7E229075C02002F82E9;
+			productRefGroup = 2091D7EC29075C02002F82E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2091D7EA29075C02002F82E9 /* eMovie */,
+				2091D80029075C03002F82E9 /* eMovieTests */,
+				2091D80A29075C03002F82E9 /* eMovieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2091D7E929075C02002F82E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2091D7FC29075C03002F82E9 /* Preview Assets.xcassets in Resources */,
+				2091D7F829075C03002F82E9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2091D7FF29075C03002F82E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2091D80929075C03002F82E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2091D7E729075C02002F82E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2091D7EF29075C02002F82E9 /* eMovieApp.swift in Sources */,
+				2091D7F429075C02002F82E9 /* eMovie.xcdatamodeld in Sources */,
+				2091D7F629075C02002F82E9 /* ContentView.swift in Sources */,
+				2091D7F129075C02002F82E9 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2091D7FD29075C03002F82E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2091D80629075C03002F82E9 /* eMovieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2091D80729075C03002F82E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2091D81029075C03002F82E9 /* eMovieUITests.swift in Sources */,
+				2091D81229075C03002F82E9 /* eMovieUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2091D80329075C03002F82E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2091D7EA29075C02002F82E9 /* eMovie */;
+			targetProxy = 2091D80229075C03002F82E9 /* PBXContainerItemProxy */;
+		};
+		2091D80D29075C03002F82E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2091D7EA29075C02002F82E9 /* eMovie */;
+			targetProxy = 2091D80C29075C03002F82E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2091D81329075C03002F82E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2091D81429075C03002F82E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2091D81629075C03002F82E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = eMovie/eMovie.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"eMovie/Preview Content\"";
+				DEVELOPMENT_TEAM = 65JJM7BL69;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.molayab.eMovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2091D81729075C03002F82E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = eMovie/eMovie.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"eMovie/Preview Content\"";
+				DEVELOPMENT_TEAM = 65JJM7BL69;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.molayab.eMovie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2091D81929075C03002F82E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65JJM7BL69;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.molayab.eMovieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eMovie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/eMovie";
+			};
+			name = Debug;
+		};
+		2091D81A29075C03002F82E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65JJM7BL69;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.molayab.eMovieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eMovie.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/eMovie";
+			};
+			name = Release;
+		};
+		2091D81C29075C03002F82E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65JJM7BL69;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.molayab.eMovieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eMovie;
+			};
+			name = Debug;
+		};
+		2091D81D29075C03002F82E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65JJM7BL69;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.molayab.eMovieUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = eMovie;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2091D7E629075C02002F82E9 /* Build configuration list for PBXProject "eMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2091D81329075C03002F82E9 /* Debug */,
+				2091D81429075C03002F82E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2091D81529075C03002F82E9 /* Build configuration list for PBXNativeTarget "eMovie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2091D81629075C03002F82E9 /* Debug */,
+				2091D81729075C03002F82E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2091D81829075C03002F82E9 /* Build configuration list for PBXNativeTarget "eMovieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2091D81929075C03002F82E9 /* Debug */,
+				2091D81A29075C03002F82E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2091D81B29075C03002F82E9 /* Build configuration list for PBXNativeTarget "eMovieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2091D81C29075C03002F82E9 /* Debug */,
+				2091D81D29075C03002F82E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2091D7F229075C02002F82E9 /* eMovie.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2091D7F329075C02002F82E9 /* eMovie.xcdatamodel */,
+			);
+			currentVersion = 2091D7F329075C02002F82E9 /* eMovie.xcdatamodel */;
+			path = eMovie.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2091D7E329075C02002F82E9 /* Project object */;
+}

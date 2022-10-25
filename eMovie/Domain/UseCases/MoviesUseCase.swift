@@ -7,18 +7,6 @@
 
 import Foundation
 
-struct VideoModel: Codable {
-    var type: String
-    var site: String
-    var id: String
-    var official: Bool
-    var key: String
-}
-
-struct VideosModel: Codable {
-    var results: [VideoModel]
-}
-
 protocol MoviesUseCaseProtocol {
     func getUpcoming() async -> Result<ResponseModel<MovieModel>, Error>
     func getTopRelated() async -> Result<ResponseModel<MovieModel>, Error>

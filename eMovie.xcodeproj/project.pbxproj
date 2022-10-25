@@ -32,6 +32,7 @@
 		2091D84E2907CC54002F82E9 /* MoviesUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2091D84D2907CC54002F82E9 /* MoviesUseCaseTests.swift */; };
 		2091D8502907D15A002F82E9 /* WebServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2091D84F2907D15A002F82E9 /* WebServiceMock.swift */; };
 		2091D8522907D785002F82E9 /* MoviesUseCaseMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2091D8512907D785002F82E9 /* MoviesUseCaseMock.swift */; };
+		2091D85529085966002F82E9 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2091D85429085966002F82E9 /* VideoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		2091D84F2907D15A002F82E9 /* WebServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceMock.swift; sourceTree = "<group>"; };
 		2091D8512907D785002F82E9 /* MoviesUseCaseMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesUseCaseMock.swift; sourceTree = "<group>"; };
 		2091D8532907DA6D002F82E9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2091D85429085966002F82E9 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -201,6 +203,7 @@
 				2091D83A2907A357002F82E9 /* MovieModel.swift */,
 				2091D83C2907A36E002F82E9 /* ResponseModel.swift */,
 				2091D83E2907A382002F82E9 /* GenreModel.swift */,
+				2091D85429085966002F82E9 /* VideoModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 				2091D7F629075C02002F82E9 /* HCarouselView.swift in Sources */,
 				2091D8392907A2D1002F82E9 /* DetailViewModel.swift in Sources */,
 				2091D8412907C1AA002F82E9 /* SearchUseCase.swift in Sources */,
+				2091D85529085966002F82E9 /* VideoModel.swift in Sources */,
 				2091D82529076083002F82E9 /* SecureBucket.swift in Sources */,
 				2091D83F2907A382002F82E9 /* GenreModel.swift in Sources */,
 				2091D83D2907A36E002F82E9 /* ResponseModel.swift in Sources */,

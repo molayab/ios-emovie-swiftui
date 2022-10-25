@@ -34,7 +34,9 @@ final class DetailViewModel: ObservableObject, DetailViewModelProtocol {
         
         switch response {
         case .success(let movie):
-            self.movie = movie
+            DispatchQueue.main.async {
+                self.movie = movie
+            }
         case .failure(let error):
             print(error)
         }

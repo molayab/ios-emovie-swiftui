@@ -9,9 +9,9 @@ import SwiftUI
 
 struct HCarouselView: View {
     struct Context {
-        var id: Int
-        var posterUrl: String
-        var title: String
+        let id: Int
+        let posterUrl: String
+        let title: String
     }
     
     var list: [Context]

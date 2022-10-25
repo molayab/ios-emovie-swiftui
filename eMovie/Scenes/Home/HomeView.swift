@@ -30,9 +30,9 @@ struct HomeView: View {
                     list: viewModel.upcomingList.map {
                     HCarouselView.Context(
                         id: $0.id,
-                        posterUrl: $0.title,
-                        title: getExternalUrlImage(
-                            path: $0.posterPath))
+                        posterUrl: getExternalUrlImage(
+                            path: $0.posterPath),
+                        title: $0.title)
                 })
                 
                 Text("Tendencia")
@@ -42,9 +42,9 @@ struct HomeView: View {
                     list: viewModel.trendingList.map {
                     HCarouselView.Context(
                         id: $0.id,
-                        posterUrl: $0.title,
-                        title: getExternalUrlImage(
-                            path: $0.posterPath))
+                        posterUrl: getExternalUrlImage(
+                            path: $0.posterPath),
+                        title: $0.title)
                 })
                 
                 Text("Recomendado")

@@ -84,7 +84,9 @@ struct HomeView: View {
                         NavigationLink(destination: {
                             DetailsView(viewModel: .init(id: element.id))
                         }, label: {
-                            AsyncImage(url: URL(string: "https://image.tmdb.org/t/p/w500\(element.posterPath ?? "")")) { image in
+                            AsyncImage(url: URL(
+                                string: getExternalUrlImage(
+                                    path: element.posterPath))) { image in
                                 image
                                 .resizable()
                                 .scaledToFill()

@@ -8,17 +8,23 @@
 import SwiftUI
 
 struct HCarouselView: View {
-    var upcomingList: [MovieModel]
+    struct Context {
+        var id: Int
+        var posterUrl: String
+        var title: String
+    }
+    
+    var list: [Context]
     
     var body: some View {
         ScrollView(.horizontal) {
             HStack {
-                ForEach(upcomingList, id: \.title) { element in
+                ForEach(list, id: \.title) { element in
                     NavigationLink(destination: {
                         DetailsView(viewModel: .init(id: element.id))
                     }, label: {
                         VStack {
-                            AsyncImage(url: URL(string: "https://image.tmdb.org/t/p/w500\(element.posterPath ?? "")")) { image in
+                            AsyncImage(url: URL(string: element.posterUrl)) { image in
                                 image
                                     .resizable()
                                     .scaledToFill()

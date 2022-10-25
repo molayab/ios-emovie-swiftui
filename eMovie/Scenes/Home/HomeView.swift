@@ -16,18 +16,36 @@ struct HomeView: View {
     @State private var selectedYear: String = "2022"
     @State private var selectedLang: String = "ES"
     
+    private func getExternalUrlImage(path: String?) -> String {
+        return "https://image.tmdb.org/t/p/w500\(path ?? "")"
+    }
+    
     var body: some View {
         ScrollView(.vertical) {
             VStack(alignment: .leading) {
                 Text("Próximos estrenos")
                     .font(.largeTitle)
                     .foregroundColor(.white)
-                HCarouselView(upcomingList: viewModel.upcomingList)
+                HCarouselView(
+                    list: viewModel.upcomingList.map {
+                    HCarouselView.Context(
+                        id: $0.id,
+                        posterUrl: $0.title,
+                        title: getExternalUrlImage(
+                            path: $0.posterPath))
+                })
                 
                 Text("Tendencia")
                     .font(.largeTitle)
                     .foregroundColor(.white)
-                HCarouselView(upcomingList: viewModel.trendingList)
+                HCarouselView(
+                    list: viewModel.trendingList.map {
+                    HCarouselView.Context(
+                        id: $0.id,
+                        posterUrl: $0.title,
+                        title: getExternalUrlImage(
+                            path: $0.posterPath))
+                })
                 
                 Text("Recomendado")
                     .font(.largeTitle)

@@ -33,9 +33,7 @@ final class HomeViewModel: ObservableObject, HomeViewModelProtocol {
         
         switch response {
         case .success(let model):
-            DispatchQueue.main.async {
-                self.recommendedList = model.results
-            }
+            self.recommendedList = model.results
             
         case .failure(let error):
             self.recommendedList = []
@@ -48,9 +46,7 @@ final class HomeViewModel: ObservableObject, HomeViewModelProtocol {
         
         switch response {
         case .success(let model):
-            DispatchQueue.main.async {
-                self.upcomingList = model.results
-            }
+            self.upcomingList = model.results
         case .failure(let error):
             self.upcomingList = []
             print(error)
@@ -62,9 +58,7 @@ final class HomeViewModel: ObservableObject, HomeViewModelProtocol {
         
         switch response {
         case .success(let model):
-            DispatchQueue.main.async {
-                self.trendingList = model.results
-            }
+            self.trendingList = model.results
         case .failure(let error):
             print(error)
         }
